@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header a {
+    position: absolute;
+    right: 10px;
+    padding: 7px 14px;
+    color: #464646;
+    font-weight: 500;
+    text-decoration: none;
+    border: 2px solid #464646;
+    border-radius: 25px;
+    width: 80px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+header a:hover {
+    background-color: #464646;
+    color: #ffbd59;
+}
+
+header img {
+    margin-left: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+header h3 {
+    margin-left: 10px;
+    color: #464646;
+}
+
+form {
+    width: auto;
+    height: auto;
+}
+
+table {
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+}
+
+table tr {
+    width: auto;
+    height: auto;
+    line-height: 30px;
+}
+
+td {
+    width: 270px;
+}
+
+td input {
+    width: 250px;
+    margin-top: 10px;
+    border: 2px solid #464a4e;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+    margin-right: 25px;
+}
+
+form input:focus {
+    background-color: #464a4e;
+    color: #ffbd59;
+}
+
+form input[type="submit"] {
+    border-radius: 25px;
+    width: 150px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #464a4e;
+    color: #ffbd59;
+}
+
+form input[type="submit"]:focus {
+    background-color: #464a4e;
+    color: #ccc;
+}
+
+form tr:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+}
+
+form tr:last-child td {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+div.cc {
+    width: 500px;
+    height: 80vh;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#colors {
+    position: absolute;
+    left: 400px;
+}
+
+input [type=color] {
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: none;
+}
+
+.cc .front {
+    background-color: #464a4e;
+    width: 360px;
+    height: 220px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cc .back {
+    background-color: #464a4e;
+    width: 360px;
+    height: 220px;
+    border-radius: 7px;
+}
+
+.front img,
+.back img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.back td i,
+.back p {
+    color: #ffbd59;
+}
+
+.front h2 {
+    color: #ffbd59;
+    font-family: 'Tiro Telugu', serif;
+}
+
+.back table {
+    width: 100%;
+    height: 70%;
+    border-bottom: 4px solid #ffbd59;
+}
+
+#logos {
+    text-align: right;
+}
+
+.icon {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.text {
+    text-align: left;
+}
+
+.social {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social i {
+    margin: 0 10px;
+    color: #ffbd59;
+}

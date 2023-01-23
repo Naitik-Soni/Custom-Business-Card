@@ -1,0 +1,7 @@
+iframe {
+    position: absolute;
+    left: 205px;
+    width: calc(100% - 205px);
+    top: 0;
+    height: 100vh;
+}

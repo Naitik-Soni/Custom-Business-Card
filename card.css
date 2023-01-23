@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+header {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header a {
+    position: absolute;
+    right: 10px;
+    padding: 7px 14px;
+    color: #464646;
+    font-weight: 500;
+    text-decoration: none;
+    border: 2px solid #464646;
+    border-radius: 25px;
+    width: 80px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+header a:hover {
+    background-color: #464646;
+    color: #ffbd59;
+}
+
+header img {
+    margin-left: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+header h3 {
+    margin-left: 10px;
+    color: #464646;
+}
+
+.containers {
+    width: 450px;
+    height: 300px;
+    border-radius: 14px;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+
+.containers:hover {
+    transform: rotateY(180deg);
+}
+
+.forth {
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 14px;
+    /*display: none;*/
+    backface-visibility: hidden;
+}
+
+.forth img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.forth h2 {
+    color: #ffbd59;
+}
+
+.backward {
+    width: 450px;
+    height: 300px;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.backward td i,
+.backward p {
+    color: #ffbd59;
+}
+
+.backward table {
+    width: 100%;
+    height: 70%;
+    border-bottom: 4px solid #ffbd59;
+}
+
+.backward img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#logos {
+    text-align: center;
+}
+
+.icon {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.text {
+    text-align: left;
+}
+
+.social {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social i {
+    margin: 0 10px;
+    color: #ffbd59;
+}
+
+.download {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+
+.download button {
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: #464a4e;
+    cursor: pointer;
+}
