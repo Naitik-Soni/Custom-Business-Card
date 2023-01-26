@@ -1,5 +1,5 @@
 
-# Business Card Generator
+# <div align="center">Business Card Generator<div>
 
 Design beautiful business card on your fingertips and Share it with anyone.
 
